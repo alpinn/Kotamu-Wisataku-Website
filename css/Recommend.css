@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #1b1b1b;
+}
+
+section {
+  padding: 5rem 9%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 7%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 2s;
+}
+
+.header.active {
+  background-color: #1717176a;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  margin-right: auto;
+}
+.header .navbar a {
+  margin-left: 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.header .navbar a:hover {
+  color: #62BAE7;
+}
+.gambarartikel2 .gambarmain2:hover{
+  border: 2px solid #000000;
+}
+.gambarartikel2 .gambarmain2:hover  .kiri{
+  background-color: #64CDD4;
+}
+.header .navbar #nav-close {
+  font-size: 5rem;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+.header .icons a,#darkmode,
+.header .icons div {
+  font-size: 2rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.header .icons a:hover,
+.header .icons div:hover {
+  color: #62BAE7;
+}
+
+.header #menu-btn {
+  display: none;
+}
+
+.search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transform: translateY(-110%);
+}
+
+.search-form.active {
+  transform: translateY(0%);
+}
+
+.search-form #close-search {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 6rem;
+}
+
+.search-form #close-search:hover {
+  color: #62BAE7;
+}
+
+.search-form form {
+  width: 70rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.2rem solid #fff;
+  display: flex;
+  align-items: center;
+}
+
+.search-form form input {
+  width: 100%;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: none;
+  background: none;
+}
+
+.search-form form input:-ms-input-placeholder {
+  color: #aaa;
+}
+
+.search-form form input::-moz-placeholder {
+  color: #aaa;
+}
+
+.search-form form input::placeholder {
+  color: #aaa;
+}
+
+.search-form form label {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-form form label:hover {
+  color: #62BAE7;
+}
+
+/*languange*/
+.dropdown{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  left: 14px;
+}
+
+.dropdown .usb{
+  margin-top: 10px;
+}
+
+.wrapper{
+  display: none;
+  position: absolute;
+  min-width: auto;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.wrapper a{
+  padding: auto;
+  display: block;
+}
+
+.dropdown:hover .wrapper{
+  display: block;
+}
+
+#search-btn,#darkmode{
+  position: relative;
+  left: 10px;
+}
+
+.ke1{
+    position: relative;
+    top: -80rem;
+}
+
+    .ke1 img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: inset(80rem 0 30rem 0);
+    }
+    
+    
+    
+    .isi{
+      top: -110rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+.isi .kiri{
+    width: 100%;
+    height: 300px;
+
+}
+.kumpulankiri{
+    width: 727px;
+    position: relative;
+    margin: auto;
+
+}
+
+
+.situgunung h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.situgunung .tipis1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.situgunung .tebel{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.situgunung .tipis{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+color: #000000;
+}
+
+
+.kanan{
+    width: 30px;
+    height: 100px;
+}
+
+.bawah {
+    position: relative;
+    display: flex;
+    width: 1150px;
+    border-radius: 15px;
+    margin: auto;
+    top: 27rem;
+    background-repeat: repeat;
+    background-position: center;
+  }
+  
+  .bawah .logo{
+    width: 30%;
+  }
+  .bawah .logo img{
+  width: 100%; 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;
+  }
+  .bawah .isi .isi1{
+      position: absolute;
+      width: 100%;
+      top: -3rem;
+    }
+    .bawah .isi{
+        position: relative;
+        right: -3rem;
+        color: white;
+        top: 5rem;
+        height: 10%;
+  }
+  
+  .bawah .isi .inputbutton{
+      position: relative;
+  }
+  .bawah .isi p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.29);
+  position: relative;
+  }
+  
+  .bawah .isi button{
+  height: 50px;
+  background: #62BAE7;
+  border-radius: 15px;
+  margin-left: 1rem ;
+  }
+
+  .bawah .isi .subscribe{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  .bawah input::placeholder{
+    position: relative;
+    left: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.22);
+  }
+.ul{
+    margin-left: 2rem;
+}
+
+.kumpulangambar img{
+width: 100%;
+}
+.kumpulangambar{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 350px;
+  border: 1px solid red;
+}
+.situgunung img{
+  width: 100%; 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+}
